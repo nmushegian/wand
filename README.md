@@ -54,7 +54,7 @@ require(root == root_, 'ERR_SUDO')
  (The remaining loss of root control danger lies in `SELFDESTRUCT`,
 which is easier to statically detect
 (mitigated in future by
-[https://ethereum-magicians.org/t/eip-2937-set-indestructible-opcode/4571](EIP4571),
+[https://eips.ethereum.org/EIPS/eip-2937](EIP-2937),
 or any way to detect that code has been scheduled for selfdestruct)
 
 ## reentry `lock` and caller reference
